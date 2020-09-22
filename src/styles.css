@@ -1,1 +1,53 @@
 /* You can add global styles to this file, and also import other style files */
+html, body {
+  height: 100%;
+  width: 100%;
+}
+
+.log {
+  background-image: url("./assets/image/logo-black.png");
+  background-size: 100px 30px;
+  width: 100px;
+  background-repeat: no-repeat;
+  height: 60px;
+  background-position: center;
+}
+
+
+.inner_list li {
+  padding: 6px;
+}
+
+
+.parent{
+  display: flex;
+  width: 400px;
+}
+
+.left{
+  font-weight: 400;
+  width:100px;
+  color: black;
+}
+
+.right{
+  font-weight: 300;
+  width:300px;
+  color: black;
+}
+
+.chart-legend .legend-title{
+  visibility: hidden;
+}
+
+
+.host_status {
+  width: 120px;
+  height: 100px;
+  border: 1px solid #988e8e;
+  border-radius: 3px;
+  margin: 16px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
